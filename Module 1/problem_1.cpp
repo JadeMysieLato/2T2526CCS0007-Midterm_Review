@@ -7,6 +7,7 @@ using namespace std;
   Harder Problem: --- see problem_1-1.cpp for the answer
   In the function, add the sum into the parameter.
   Note the use of bitwise operator (&).
+  Note the function data type.
 */
 
 int findSum(int number_1, int number_2);
