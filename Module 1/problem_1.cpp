@@ -9,9 +9,27 @@ using namespace std;
   Note the use of bitwise operator (&).
 */
 
+int findSum(int number_1, int number_2);
+
 int main()
 {
-  
+  int number_1;
+  int number_2;
+
+  cout << "Enter 1st number: ";
+  cin >> number_1;
+
+  cout << "Enter 2nd number: ";
+  cin >> number_2;
+
+  int sum = findSum(number_1, number_2);
+
+  cout << "The sum is: " << sum;
 
   return 0;
+}
+
+int findSum(int number_1, int number_2)
+{
+  return number_1 + number_2;
 }
