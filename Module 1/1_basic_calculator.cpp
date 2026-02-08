@@ -89,7 +89,7 @@ float subtract(float &result)
   int amount_to_add;
   float input_number;
 
-  cout << "How many numbers will you add?\n";
+  cout << "How many numbers will you subtract?\n";
   cin >> amount_to_add;
 
   cout << "Enter " << amount_to_add << " numbers:\n";
@@ -107,7 +107,7 @@ float multiply(float &result)
   int amount_to_add;
   float input_number;
 
-  cout << "How many numbers will you add?\n";
+  cout << "How many numbers will you multiply?\n";
   cin >> amount_to_add;
 
   cout << "Enter " << amount_to_add << " numbers:\n";
@@ -125,7 +125,7 @@ float divide(float &result)
   int amount_to_add;
   float input_number;
 
-  cout << "How many numbers will you add?\n";
+  cout << "How many numbers will you divide?\n";
   cin >> amount_to_add;
 
   cout << "Enter " << amount_to_add << " numbers:\n";
