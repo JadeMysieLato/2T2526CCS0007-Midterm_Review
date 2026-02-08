@@ -4,11 +4,6 @@ using namespace std;
 /*
 What to build:
 A function that accepts a number and determines whether it’s prime.
-
-Bonus:
-Make two versions:
-void primeCheck(int n)
-int primeCheck(int n)
 */
 
 void primeCheck(int number);
